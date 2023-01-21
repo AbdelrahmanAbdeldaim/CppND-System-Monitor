@@ -1,8 +1,6 @@
 # CppND-System-Monitor
 
-Starter code for System Monitor Project in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
-
-
+This project is part of udacity C++ Nano degree. I implemented a system monitor to monitor the states of the system and its processes interms of memory usage, cpu utilization, command and user. 
 
 ## ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
@@ -15,4 +13,5 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 * `format` applies [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) to style the source code
 * `debug` compiles the source code and generates an executable, including debugging symbols
 * `clean` deletes the `build/` directory, including all of the build artifacts
+* `Run` deletes the `build/` directory, compiles the source code,and generates and run executable.
 
